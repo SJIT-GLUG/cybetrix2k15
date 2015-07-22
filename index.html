@@ -24,6 +24,10 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -108,14 +112,14 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <i class="fa fa-4x fa-bus wow bounceIn text-primary"></i>
                         <h3>Sturdy Templates</h3>
                         <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i class="fa fa-4x fa-tree wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Ready to Ship</h3>
                         <p class="text-muted">You can use this theme as is, or you can make changes!</p>
                     </div>
@@ -137,18 +141,18 @@
             </div>
         </div>
     </section>
-
+    <div class="popup-gallery">
     <section class="no-padding" id="events">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
+                                <!-- <div class="project-category text-faded">
+                                    Technical
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -157,13 +161,13 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
+                                <!-- <div class="project-category text-faded">
+                                    Technical
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -172,13 +176,13 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+                                <!-- <div class="project-category text-faded">
                                     Category
-                                </div>
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -187,13 +191,13 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+                                <!-- <div class="project-category text-faded">
                                     Category
-                                </div>
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -202,13 +206,13 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+                                <!-- <div class="project-category text-faded">
                                     Category
-                                </div>
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -217,13 +221,13 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/header.jpg" class="portfolio-box lightbox">
                         <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+                                <!-- <div class="project-category text-faded">
                                     Category
-                                </div>
+                                </div> -->
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -234,7 +238,7 @@
             </div>
         </div>
     </section>
-
+    </div>
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -276,7 +280,27 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+       $('.popup-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+                return item.el.attr('title');
+            }
+        }
+    });
+    </script>
 </body>
 
 </html>

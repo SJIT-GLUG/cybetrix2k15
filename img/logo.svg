@@ -16,7 +16,7 @@
    height="1000"
    viewBox="0 0 1000 1000"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/home/vijay/Documents/Stat/cybetrix/img/logo1.png"
+   inkscape:export-filename="/home/vijay/Documents/Stat/cybetrix/img/logo2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,9 +46,9 @@
      inkscape:window-height="744"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.944"
-     inkscape:cx="534.31072"
-     inkscape:cy="447.0686"
+     inkscape:zoom="0.472"
+     inkscape:cx="490.42887"
+     inkscape:cy="504.08749"
      inkscape:window-x="41"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -286,23 +286,26 @@
   <flowRoot
      xml:space="preserve"
      id="flowRoot3494"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Walter;-inkscape-font-specification:Walter;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     transform="matrix(1.6232571,0,0,1.2216155,-327.54503,-97.461384)"><flowRegion
        id="flowRegion3496"><rect
          id="rect3498"
          width="317.7966"
          height="70.974579"
          x="365.46609"
-         y="460.80508" /></flowRegion><flowPara
+         y="460.80508"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Walter;-inkscape-font-specification:Walter;fill:#ffffff;" /></flowRegion><flowPara
        id="flowPara3500">ybertrix</flowPara><flowPara
        id="flowPara3502" /></flowRoot>  <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="581.56781"
-     y="402.54236"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.23532867px;line-height:125%;font-family:Walter;-inkscape-font-specification:Walter;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="595.68549"
+     y="434.49823"
      id="text3504"
-     sodipodi:linespacing="125%"><tspan
+     sodipodi:linespacing="125%"
+     transform="scale(1.0743061,0.93083338)"><tspan
        sodipodi:role="line"
        id="tspan3506"
-       x="581.56781"
-       y="402.54236">2k15</tspan></text>
+       x="595.68549"
+       y="434.49823">2k15</tspan></text>
 </svg>
